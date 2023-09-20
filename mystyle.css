@@ -1,0 +1,292 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+}
+
+section {
+    transition-duration: 1 ease;
+}
+
+/*------- Header -------- */
+
+.header {
+    background-color: #2faa3a; /* rgb(18, 104, 18);*/
+    max-height: 150px;
+    display:flex;
+    justify-content:space-between; 
+    align-items: center;
+    
+}
+
+.right {
+margin: 35px 50px 10px 0px;
+}
+
+
+.center {
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 90px
+}
+
+.header_lang {
+    height: 30px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.header_logo {
+    height:300px;
+    width: 400px;
+    max-width: 60rem;
+    margin-left: -600px;
+    object-fit: contain;
+    margin-top: 25px;
+}
+
+.menu {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #fff;
+
+}
+
+/* ---------- Overskrift og tekst ------- */
+
+.overskrift {
+    text-align: center;
+    margin: 80px auto;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+#info p {
+font-size: 1.1rem;
+font-family: sans-serif;
+text-decoration-style: solid;
+margin: 50px 50px;
+}
+
+/* --------- Workshops ---------- */
+
+h2 {
+   margin: 0 50px;
+   text-decoration-line: underline;
+   font-family: Helvetica;
+   font-size: 30px;
+   
+}
+
+h3 {
+margin: 20px;
+text-decoration: underline;
+font-family: Helvetica;
+width: max-content;
+font-size: 20px;
+}
+
+
+.container img {
+max-width: 150px;
+height: 150px;
+border-radius: 100%;
+object-fit: cover;
+padding: 1%;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px; 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.workshop {
+  
+    padding: 20px;
+}
+
+.workshop img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.workshop {
+
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.workshop img {
+    max-width: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 1%;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+.workshop a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000; 
+    font-weight: 600;
+    text-align: center; 
+    background: #2faa3a;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.workshop a:hover {
+background: rgb(60, 104, 60);
+}
+
+
+/* ------------- Events --------- */
+
+.eventcontainer {
+    margin: 40px;
+    display: flex;
+    
+}
+
+.card_overview {
+    width: calc(33.33% - 20px);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 5px 0px 5px 100px;
+    
+}
+
+.card_img {
+    max-width: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 1%;
+    border: 3px solid black;
+    margin: 20px 60px;
+    
+}
+
+.card_title {
+    font-weight: bold;
+    padding: 0px 10px; 
+    width: 360px;
+    text-decoration: underline;
+    text-align: center;
+    text-wrap: 120px;
+
+}
+
+
+.card_button {
+    text-decoration: none;
+    align-content: center;
+    font-size: 20px;
+    color: #000; 
+    font-weight: 600;
+    text-align: center; 
+    background: #2faa3a;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-left: 110px;
+    justify-content: space-between;
+}
+
+.card_button:hover {
+ background: rgb(60, 104, 60);
+}
+
+/* ------------- footer --------- */
+
+#footer {
+  
+    background: #2faa3a;
+    max-height: 500px;
+    color: white;
+    font-family: Helvetica;
+    display: flex; 
+    justify-content: space-between;
+   
+}
+
+.footer_title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.copyright {
+    text-align: center; 
+}
+
+.footer_left {
+
+    margin: 30px 30px;
+
+}
+
+.footer_right {
+    
+    margin: 30px 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: px;
+    max-width: 25px;
+    max-height: 25px;
+    width:30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  height: 15px;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+  height: 15px;
+}
+/* Instagram */
+.fa-instagram {
+  background: #c71585;
+  color: white;
+  height: 15px;
+}
+
